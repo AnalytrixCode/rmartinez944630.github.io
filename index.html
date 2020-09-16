@@ -6,7 +6,66 @@
 	
 </head>
 <body>
-
+/*
+When commenting in CSS, you use this forward-slash + star notation, and end with star + forward-slash
+We can put whatever we want here
+*/
+/* h1 heading tag */
+h1 {
+    /* Put in a 15-pixel margin at the bottom of the heading */
+    margin-bottom: 15px;
+    /* And now you can continue to add settings to this tag here  */
+    /* Let's change the fontsize...make it 60 pixels high */
+    font-size: 60px;
+    /* Let's color the font... let's make this heading have a white font */
+    color: white;
+    /* Align the text to the center of its enclosing element */
+    text-align: center;
+    /* Underline the text */
+    text-decoration: underline;
+    /* Because we made the text white, we should probably change the background color */
+    /* Note: this is the background of the heading element */
+    background-color: black;
+}
+/* h2 heading tag */
+h2 {
+    /* 15 pixel margin on all h2 headings */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+/* h3 heading tag */
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+/* settings for all img tags */
+img {
+    /* Center the block element in the middle of the enclosing tag. When you use "auto" for your left and right alignments, your browser does the math.
+    Also adding block display, which we will talk about later
+        */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+/* Settings for p tags */
+p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* settings for unordered lists */
+ul {
+    text-align: center;
+    font-size: 35px;
+    /* set element border */
+    border-style: solid;
+    border-width: 5px;
+    /* http://www.w3schools.com/cssref/pr_list-style-position.asp */
+    list-style-position: inside;
+}
 <h1>Welcome to DULL Corp</h1>
 <h3>We put DULL in DULL</h3>
 
